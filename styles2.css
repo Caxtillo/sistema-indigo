@@ -1,0 +1,73 @@
+/* Resetear los márgenes y rellenos por defecto */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fuente y tamaño base */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Encabezado */
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Navegación */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* Contenido */
+.contenido {
+    background-color: #fff;
+    padding: 20px;
+    min-height: calc(100vh - 160px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Resto de tus estilos... */
